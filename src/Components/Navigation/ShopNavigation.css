@@ -1,0 +1,16 @@
+:root{
+    --first-color: #001326;
+    --second-color: #79c6e7;
+  }
+
+.shopMenu {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: #14171c;
+    padding: 15px;
+}
+
+.shopMenu a {
+    color: white;
+}
