@@ -10,6 +10,7 @@ import Header from './Components/Header/Header'
 import ItemDetailContainer from './Components/ItemListContainer/ItemDetailContainer'
 import ItemCategoryContainer from './Components/ItemListContainer/ItemCategoryContainer';
 import Cart from './Components/Cart/Cart';
+import Checkout from './Components/Checkout/Checkout';
 // REACT-ROUTER-DOM
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //Context
@@ -30,6 +31,7 @@ function App () {
                 <Route path="/detail/:id" component={ItemDetailContainer} />
                 <Route path="/category/:id" component={ItemCategoryContainer} />
                 <Route path="/cart" component={Cart} />
+                <Route path="/Checkout" component={Checkout} /> 
             </Switch>
           </div>
       </Router>

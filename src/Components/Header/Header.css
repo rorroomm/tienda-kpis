@@ -29,7 +29,9 @@ body{
   color: var(--second-color);
 }
 
-
+.logo {
+  margin-left: 6rem;
+}
 
 h2,p{
   margin: 0;

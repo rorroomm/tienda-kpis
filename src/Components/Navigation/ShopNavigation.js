@@ -9,10 +9,10 @@ function ShopNavigation() {
           MENS
         </Link>
         <Link to="/category/Womens" className="Link">
-          WOMENS
+          Womens
         </Link>
         <Link to="/category/Electronic" className="Link">
-          ELECTRONIC
+          Electronic
         </Link>
       </ul>
     </nav>

@@ -9,7 +9,7 @@ function Header () {
        return (
             <nav className="navbar nav">
             <Link to="/" >
-                <h1>RANDOM STORE</h1>
+                <h1>TIENDA KPIS</h1>
             </Link>
                 <div className="links">
                     <ul>

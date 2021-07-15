@@ -1,4 +1,7 @@
-
+.containerHome {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .homeC {
   height: 500px;
 }
@@ -9,8 +12,3 @@
   height: 700px;
 }
 
-.leftContainer{
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-  height: 500px;
-  height: 700px;
-}
